@@ -18,7 +18,13 @@ function Home({ user, setUser, bookmarks }) {
 					</Row>
 				</Container>
 			) : (
-				<Redirect to="/news" />
+				<Redirect
+					to={
+						localStorage.getItem('lastPage') == '/reading-list'
+							? '/reading-list'
+							: '/news'
+					}
+				/>
 			)}
 		</>
 	);
