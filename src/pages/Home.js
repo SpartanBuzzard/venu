@@ -18,7 +18,7 @@ function Home({ user, setUser, bookmarks }) {
 					</Row>
 				</Container>
 			) : (
-				<Redirect to="/venu/news" />
+				<Redirect to="/news" />
 			)}
 		</>
 	);
