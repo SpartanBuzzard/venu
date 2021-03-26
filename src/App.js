@@ -58,14 +58,14 @@ function App() {
 			/>
 			<Route
 				exact
-				path="/"
+				path="/venu/"
 				render={() => (
 					<Home user={user} setUser={setUser} bookmarks={bookmarks} />
 				)}
 			/>
 			<Route
 				exact
-				path="/news"
+				path="/venu/news"
 				render={() => (
 					<News
 						user={user}
@@ -77,7 +77,7 @@ function App() {
 			/>
 			<Route
 				exact
-				path="/reading-list"
+				path="/venu/reading-list"
 				render={() => (
 					<ReadingList
 						user={user}

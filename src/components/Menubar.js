@@ -20,7 +20,7 @@ function Menubar({ user, setUser, bookmarks, setBookmarks }) {
 
 	return (
 		<Navbar bg="light" expand="lg">
-			<Navbar.Brand as={Link} to="/">
+			<Navbar.Brand as={Link} to="/venu/">
 				<h1>News Hacker</h1>
 			</Navbar.Brand>
 			{user && (
@@ -31,15 +31,15 @@ function Menubar({ user, setUser, bookmarks, setBookmarks }) {
 							<Nav.Link
 								as={Link}
 								to="/news"
-								active={location.pathname === '/news'}
+								active={location.pathname === '/venu/news'}
 							>
 								| News
 							</Nav.Link>
 							{bookmarks.length > 0 && (
 								<Nav.Link
 									as={Link}
-									to="/reading-list"
-									active={location.pathname === '/reading-list'}
+									to="/venu/reading-list"
+									active={location.pathname === '/venu/reading-list'}
 								>
 									| Reading List <Badge>({bookmarks.length})</Badge>
 								</Nav.Link>

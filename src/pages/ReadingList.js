@@ -37,7 +37,7 @@ function ReadingList({ user, bookmarks, setBookmarks }) {
 					</Row>
 				</Container>
 			) : (
-				<Redirect to="/" />
+				<Redirect to="/venu/" />
 			)}
 		</>
 	);
