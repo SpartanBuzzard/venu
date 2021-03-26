@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/venu/static/css/main.638c3294.chunk.css",
+    "main.js": "/venu/static/js/main.930809de.chunk.js",
+    "main.js.map": "/venu/static/js/main.930809de.chunk.js.map",
+    "runtime-main.js": "/venu/static/js/runtime-main.e8181c5c.js",
+    "runtime-main.js.map": "/venu/static/js/runtime-main.e8181c5c.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/venu/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6388d616.chunk.js": "/venu/static/js/2.6388d616.chunk.js",
+    "static/js/2.6388d616.chunk.js.map": "/venu/static/js/2.6388d616.chunk.js.map",
+    "static/js/3.2bce9419.chunk.js": "/venu/static/js/3.2bce9419.chunk.js",
+    "static/js/3.2bce9419.chunk.js.map": "/venu/static/js/3.2bce9419.chunk.js.map",
+    "index.html": "/venu/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/venu/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.638c3294.chunk.css.map": "/venu/static/css/main.638c3294.chunk.css.map",
+    "static/js/2.6388d616.chunk.js.LICENSE.txt": "/venu/static/js/2.6388d616.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/venu/static/media/newspaper_bg.a9279d48.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8181c5c.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6388d616.chunk.js",
+    "static/css/main.638c3294.chunk.css",
+    "static/js/main.930809de.chunk.js"
+  ]
+}
