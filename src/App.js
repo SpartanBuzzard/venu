@@ -48,13 +48,6 @@ function App() {
 		localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 	}, [bookmarks]);
 
-	// useEffect(() => {
-	// 	console.log('Fucking tryin');
-	// 	if (localStorage.getItem('lastPage')) {
-	// 		history.push(localStorage.getItem('lastPage'));
-	// 	}
-	// }, [history]);
-
 	return (
 		<>
 			<Menubar
