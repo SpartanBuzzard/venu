@@ -38,7 +38,7 @@ function Menubar({ user, setUser, bookmarks, setBookmarks }) {
 							{bookmarks.length > 0 && (
 								<Nav.Link
 									as={Link}
-									to="/venu/reading-list"
+									to="/reading-list"
 									active={location.pathname === '/reading-list'}
 								>
 									| Reading List <Badge>({bookmarks.length})</Badge>
