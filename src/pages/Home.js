@@ -20,7 +20,8 @@ function Home({ user, setUser, bookmarks }) {
 			) : (
 				<Redirect
 					to={
-						localStorage.getItem('lastPage') == '/reading-list'
+						localStorage.getItem('lastPage') == '/reading-list' &&
+						bookmarks.length != 0
 							? '/reading-list'
 							: '/news'
 					}
